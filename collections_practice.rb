@@ -16,4 +16,5 @@ end
 
 def remove_non_strings(array)
   array.select do { |nah| nah.class == String }
+  end
 end
