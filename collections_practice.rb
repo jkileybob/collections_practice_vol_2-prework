@@ -9,7 +9,7 @@ end
 def first_wa(array)
   array.each do |wa|
     if wa.to_s.start_with?("wa")
-      return word
+      return wa
     end
   end
 end
