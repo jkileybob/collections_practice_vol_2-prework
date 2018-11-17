@@ -29,3 +29,11 @@ def count_elements(array)
     end
   end.uniq
 end
+
+def merge_data(keys, data)
+  array = []
+  keys.each do |person_name|
+    name == person_name[:first_name]
+  data.each do |person_data|
+    if person_data[name] 
+  
