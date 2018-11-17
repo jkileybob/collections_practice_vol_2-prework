@@ -38,7 +38,7 @@ def merge_data(keys, data)
     if person_data[name]
      merged_person = person_data[name]
      merged_person[:first_name] = name
-     merged_array << merged_person
+     array << merged_person
    end
  end
  end
