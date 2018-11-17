@@ -44,4 +44,3 @@ def merge_data(keys, data)
   end
   merged_array
 end
-
