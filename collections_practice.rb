@@ -9,5 +9,6 @@ end
 def first_wa (array)
   array.select do |wa|
     wa.to_s.start_with?("wa")
+    end
   end
 end
