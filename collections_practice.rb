@@ -45,16 +45,18 @@ def merge_data(keys, data)
   merged_array
 end
 
-new_array = []
-data.each do |person_info|
-  person_info.each do |key, value|
-    if value == "cool"
-      new_array << person_info
+def find_cool(data)
+  new_array = []
+  data.each do |person_info|
+    person_info.each do |key, value|
+      if value == "cool"
+        new_array << person_info
+      end
     end
   end
+  new_array
 end
-new_array
-end
+
 
 def organize_schools(hash)
   organized_hash = {}
