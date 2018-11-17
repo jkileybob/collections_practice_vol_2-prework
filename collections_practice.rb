@@ -17,3 +17,16 @@ end
 def remove_non_strings(array)
   array.select {|x| x.class == String}
 end
+
+def count_elements(array)
+  array.each do |og_hash|
+    og_hash[:count] = 0
+    name = og_hash[:name]
+    array.each do |hash|
+      if hash[:name] == name
+        og_hash[:count] += 1
+      end
+    end
+  end.uniq
+end
+  
