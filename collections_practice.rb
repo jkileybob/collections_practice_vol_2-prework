@@ -7,7 +7,7 @@ def contain_a(array)
 end
 
 def first_wa(array)
-  array.each do |wa| 
+  array.each do |wa|
     if wa.to_s.start_with?("wa")
       return word
     end
